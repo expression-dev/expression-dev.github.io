@@ -378,10 +378,10 @@ footer a:hover {
   visibility: hidden;
   height: 0px;
 }
-*/
 .clearfix {display: inline-block;}
-/** html .clearfix {height: 1%;}*/
+/* html .clearfix {height: 1%;}
 .clearfix {display: block;}
+*/
 
 /* #Media Queries
 ================================================== */

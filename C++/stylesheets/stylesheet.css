@@ -371,9 +371,16 @@ footer a:hover {
 }
 
 /* MISC */
-
+/*.clearfix:after {
+  clear: both;
+  content: '.';
+  display: block;
+  visibility: hidden;
+  height: 0px;
+}
+*/
 .clearfix {display: inline-block;}
-* html .clearfix {height: 1%;}
+/** html .clearfix {height: 1%;}*/
 .clearfix {display: block;}
 
 /* #Media Queries

@@ -1,108 +1,117 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta name=viewport content="width=device-width, initial-scale=1">
 		<title> Expressions :: C++ :: doc</title>
-		<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/expression-dev/expression-dev.github.io/master/ME%20logo.png">
-		<link rel="stylesheet" type="text/css" href="https://expression-dev.github.io/C++/stylesheets/stylesheet.css" media="screen" />
-		<link rel="stylesheet" type="text/css" href="https://expression-dev.github.io/C++/stylesheets/print.css" media="print" />
+		<link rel="icon" type="image/png" href="../../ME%20logo.png">
+		<link rel="stylesheet" type="text/css" href="../../C++/stylesheets/stylesheet.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="../../C++/stylesheets/print.css" media="print" />
 		<link rel="stylesheet" type="text/css" href="base.css" />
-		<link rel="stylesheet" href="https://alex-tsvetanov.github.io/dark.css">
+		<link rel="stylesheet" href="../../dark.css">
 	</head>
 	<body>
 		<header>
 		<div id="header">
 			<center>
-				<img src="https://raw.githubusercontent.com/expression-dev/expression-dev.github.io/master/ME%20logo%20twolines.png"> 
+				<img src="../../ME%20logo%20twolines.png"> 
 			</center>
 		</div>
 		</header>
-		<img src="gccegg-65.png" style="position: fixed; left: 0%; top: 70%;">
-		<img src="mathjax.png" style="position: fixed; left: 0%; top: 45%;">
-		<img src="c++logo.png" style="position: fixed; left: 87%; top: 70%;">
-		<img src="HTML5.png" style="position: fixed; left: 87%; top: 40%;">
 
-		<h1>Expressions</h1>
-		<h2>Math Expressions Calculator</h2>
-		<br>
-		<div class="base">
-			<ul>
-				<li><a href="#intro">Introduction</a></li>
-				<li>
-					<a href="#install">Installation</a>
-					<ul>
-						<li><a href="#dep">Dependancies</a></li>
-						<li><a href="#installmec">Install MEC</a></li>
-						<li><a href="#update">Update MEC</a></li>
-					</ul>
-				</li>
-				<li><a href="#run">Running MEC</a></li>
-			</ul>
-		</div>
-		<div id="intro">
+		<div style="padding: 0px 50px;">
+			<h1>Expressions</h1>
+			<h2>Math Expressions Calculator</h2>
+			<br>
 			<div class="base">
-				Introduction
-			</div> 
-			<div class="body">
-				This project have aim, which is make a program on C++ for calculation of <br>expressions (of all types) with run-time defined operators, functions and brackets, because this can be useful for scientific work.
+				<ul>
+					<li><a href="#intro">Introduction</a></li>
+					<li>
+						<a href="#install">Installation</a>
+						<ul>
+							<li><a href="#dep">Dependancies</a></li>
+							<li><a href="#installmec">Install MEC</a></li>
+							<li><a href="#update">Update MEC</a></li>
+						</ul>
+					</li>
+					<li><a href="#run">Running MEC</a></li>
+				</ul>
+			</div>
+			<div id="intro">
+				<div class="base">
+					Introduction
+				</div> 
+				<div class="body">
+					This project have aim, which is make a program on C++ for calculation of expressions (of all types) with run-time defined operators, functions and brackets, because this can be useful for scientific work.
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div id="install">
+				<div class="base">Installation</div>
+			<br>
+			<br>
+				<div id="dep">
+					<div class="base">Dependencies</div>
+					<div class="body">
+						<ul>
+							<li>GNU Compiler Collection</li>
+							<li>Setted variable $EDITOR</li>
+							<li>Any Graphical Browser (optional)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+				<div id="installmec">
+					<div class="base">Install MEC</div>
+					<div class="body">
+					Download the project:
+					<pre><code>
+	wget https://github.com/expression-dev/C-/archive/1.3.0.zip -O $name_of_archive$
+	unzip $name_of_archive$ -d $extract_dir$
+					</code></pre>
+					
+					Run the setup:
+					<pre><code>
+	cd $extract_dir$
+	./setup	
+					</code></pre>
+					</div>
+				</div>
+			<br>
+			<br>
+				<div id="update">
+					<div class="base">Update MEC</div>
+					<div class="body">
+						Download a newer version and <a href="#installmec">install it like written in above point</a>.
+					</div>
+				</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div id="run">
+					<div class="base">Running MEC</div>
+					<div class="body">
+					Run MEC:
+					<pre><code>
+	mec			
+					</code></pre>
+					</div>
 			</div>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<div id="install">
-			<div class="base">Installation</div>
-		<br>
-		<br>
-			<div id="dep">
-				<div class="base">Dependencies</div>
-				<div class="body">
-					<ul>
-						<li>GNU Compiler Collection</li>
-						<li>Setted variable $EDITOR</li>
-						<li>Any Graphical Browser (optional)</li>
-					</ul>
-				</div>
-			</div>
-		<br>
-		<br>
-			<div id="installmec">
-				<div class="base">Install MEC</div>
-				<div class="body">
-				Download the project:
-				<pre><code>
-wget https://github.com/expression-dev/C-/archive/1.3.0.zip -O $name_of_archive$
-unzip $name_of_archive$ -d $extract_dir$
-				</code></pre>
-				
-				Run the setup:
-				<pre><code>
-cd $extract_dir$
-./setup	
-				</code></pre>
-				</div>
-			</div>
-		<br>
-		<br>
-			<div id="update">
-				<div class="base">Update MEC</div>
-				<div class="body">
-					Download a newer version and <a href="#installmec">install it like written in above point</a>.
-				</div>
-			</div>
-		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<div id="run">
-				<div class="base">Running MEC</div>
-				<div class="body">
-				Run MEC:
-				<pre><code>
-mec			
-				</code></pre>
-				</div>
-		</div>
+		<center>
+			<svg height="155px" width="30%" style="align:center;">
+				<text id="pow" y="135" fill="white" style="font-size: 30pt;">Powered by</text>
+			</svg>
+			<br>
+			<img src="c++logo.png">
+			<!--<img src="HTML5.png">-->
+			<img src="gccegg-65.png">
+			<img src="mathjax.png">
+		</center>
 	<body>
 </html>
